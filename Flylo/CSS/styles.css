@@ -1,0 +1,889 @@
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #1c2431;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Raleway', ;
+}
+
+header img {
+  margin-top: 4.5rem;
+  margin-left: 5rem;
+}
+
+
+header .header-links {
+  float: right;
+  margin-top: 5.5rem;
+  margin-right: 3.5rem;
+  font-family: "Raleway";
+  font-weight: normal;
+}
+
+header .header-links a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1.5rem;
+  color: white;
+}
+
+.top img{
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.top yourFiles {
+  color: white;
+  width: 725px;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 3rem;
+  font-weight: 700;
+  font-family: "Raleway";
+  margin-bottom: 2rem;
+}
+
+.top p {
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+  width: 626px;
+  margin: 0 auto;
+}
+
+.top .button {
+  color: white;
+  background: -webkit-gradient(linear, right top, left top, from(#339ecc), to(#65e2d9));
+  background: linear-gradient(to left, #339ecc, #65e2d9);
+  border: none;
+  border-radius: 25px;
+  width: 279px;
+  margin-top: 2rem;
+  font-family: "Raleway";
+  font-size: 1rem;
+  height: 50px;
+  margin-left: 40%;
+}
+
+.middle {
+  margin-top: 15%;
+  background-color: #181f2a;
+}
+
+.middle .desktop {
+  width: 100%;
+  position: relative;
+  margin-top: -35%;
+  z-index: -1;
+}
+
+.middle img.mobile {
+  display: none;
+}
+
+.middle .featureBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 18rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.middle .box {
+  padding-top: 2rem;
+  width: 450px;
+}
+
+.middle .box h3 {
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.middle .box p {
+  width: 375px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.middle .box img {
+  margin-left: 11rem;
+  margin-top: .5rem;
+}
+
+.middle #box1-h3 {
+  margin-top: 2rem;
+}
+
+.bottom {
+  height: 1280px;
+  background-color: #181f2a;
+}
+
+.bottom .bottomCall {
+  margin-bottom: 8rem;
+}
+
+.bottom .bottomCall img {
+  margin-top: 5.75rem;
+  margin-left: 6.75rem;
+}
+
+.bottom .bottomCall .wordBox {
+  margin-right: 4rem;
+  margin-top: 12rem;
+  float: right;
+  width: 600px;
+}
+
+.bottom .bottomCall .wordBox h1 {
+  font-family: "Raleway";
+  color: white;
+  width: 365px;
+  font-size: 2.5em;
+}
+
+.bottom .bottomCall .wordBox p {
+  color: white;
+  width: 550px;
+  font-size: 1rem;
+}
+
+.bottom .bottomCall .wordBox a {
+  color: #65e2d9;
+  text-decoration: none;
+  border-bottom: 1px solid #65e2d9;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.bottom .bottomCall .wordBox img {
+  margin-left: -1rem;
+  margin-top: 1rem;
+  margin-bottom: -.25rem;
+}
+
+.bottom img.quotes {
+  z-index: -1;
+  margin-bottom: -1rem;
+  margin-left: 3.5rem;
+}
+
+.bottom .testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bottom .testimonials .testBox {
+  width: 400px;
+  height: auto;
+  background-color: #202a3c;
+  color: white;
+  padding-bottom: 2rem;
+  -webkit-box-shadow: 8px 8px 8px #1c2431;
+          box-shadow: 8px 8px 8px #1c2431;
+}
+
+.bottom .testimonials .testBox img {
+  width: 25px;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+.bottom .testimonials .testBox p {
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.bottom .testimonials .testBox span.name {
+  font-size: .75rem;
+  margin-left: .25rem;
+  position: absolute;
+  margin-top: -.25rem;
+}
+
+.bottom .testimonials .testBox span.title {
+  font-size: .5rem;
+  margin-left: .25rem;
+}
+
+.inset {
+  z-index: 9;
+  position: relative;
+  width: 865px;
+  background-color: #1c2431;
+  -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+  margin-top: -10rem;
+  height: 275px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.inset h1 {
+  padding-top: 3rem;
+  font-family: "Raleway";
+  text-align: center;
+  font-size: 2rem;
+}
+
+.inset p {
+  text-align: center;
+  width: 630px;
+  margin: 0 auto;
+}
+
+.inset input {
+  width: 480px;
+  height: 45px;
+  border-radius: 25px;
+  margin-top: 2.75rem;
+  margin-left: 5rem;
+  border: none;
+}
+
+.inset input::-webkit-input-placeholder {
+  padding-left: 2rem;
+}
+
+.inset input:-ms-input-placeholder {
+  padding-left: 2rem;
+}
+
+.inset input::-ms-input-placeholder {
+  padding-left: 2rem;
+}
+
+.inset input::placeholder {
+  padding-left: 2rem;
+}
+
+.inset .buttonFree {
+  color: white;
+  background: -webkit-gradient(linear, right top, left top, from(#339ecc), to(#65e2d9));
+  background: linear-gradient(to left, #339ecc, #65e2d9);
+  border: none;
+  border-radius: 25px;
+  width: 200px;
+  margin-left: 2rem;
+  font-family: "Raleway";
+  font-size: .90rem;
+  height: 50px;
+}
+
+footer {
+  color: white;
+  background-color: #0b1523;
+  height: 515px;
+  margin-top: -8.5rem;
+}
+
+footer .logo {
+  margin-top: 14rem;
+  margin-left: 7.5rem;
+}
+
+footer .contactBox {
+  margin-top: 3rem;
+  width: 90%;
+  margin-left: 5rem;
+}
+
+footer .contactBox .locationBox {
+  float: left;
+  width: 400px;
+}
+
+footer .contactBox .locationBox span {
+  width: 300px;
+  display: block;
+  margin-left: 2.5rem;
+  margin-top: -1.5rem;
+}
+
+footer .contactBox .phoneBox {
+  width: 300px;
+  margin-left: 20rem;
+}
+
+footer .contactBox .phoneBox span {
+  margin-left: 1.5rem;
+}
+
+footer .contactBox .emailBox {
+  padding-top: .75rem;
+  width: 300px;
+  margin-left: 20rem;
+}
+
+footer .contactBox .emailBox span {
+  margin-left: 1.5rem;
+}
+
+footer .contactBox .link1 {
+  width: 80px;
+  margin-left: 46rem;
+  margin-top: -3.75rem;
+}
+
+footer .contactBox .link1 a {
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding-bottom: .75rem;
+}
+
+footer .contactBox .link2 {
+  width: 80px;
+  margin-left: 58rem;
+  margin-top: -8.5rem;
+}
+
+footer .contactBox .link2 a {
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding-bottom: .75rem;
+}
+
+footer .contactBox #social {
+  width: 200px;
+  float: right;
+  margin-top: -7.75rem;
+}
+
+footer .contactBox #social i {
+  text-align: center;
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 17px;
+  line-height: 2;
+}
+
+.attribution {
+  float: right;
+  height: 0px;
+  margin-right: 2rem;
+  margin-top: -2rem;
+  color: white;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+
+.attribution a:link {
+  color: white;
+}
+
+@media only screen and (max-width: 1400px) {
+  .bottom img#team.stayProductive {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .top img#features.hero {
+    width: 500px;
+    height: auto;
+    margin-left: 25rem;
+  }
+  .middle .featureBox {
+    margin: 0 auto;
+  }
+  .bottom .testimonials .testBox {
+    width: 280px;
+    height: 160px;
+  }
+  .bottom .testimonials .testBox p {
+    font-size: .75rem;
+    width: 200px;
+  }
+  .inset input::-webkit-input-placeholder {
+    padding-left: 3rem;
+  }
+  .inset input:-ms-input-placeholder {
+    padding-left: 3rem;
+  }
+  .inset input::-ms-input-placeholder {
+    padding-left: 3rem;
+  }
+  .inset input::placeholder {
+    padding-left: 3rem;
+  }
+  footer .contactBox .link1 {
+    margin-left: 40rem;
+  }
+  footer .contactBox .link2 {
+    margin-left: 50rem;
+  }
+  footer .contactBox #social {
+    margin-right: 6rem;
+  }
+}
+
+@media only screen and (max-width: 1275px) {
+  .top h1 {
+    margin-left: 20%;
+    font-size: 2rem;
+  }
+  .top img#features.hero {
+    width: 400px;
+    height: auto;
+    margin-left: 25rem;
+  }
+  .bottom img#team.stayProductive {
+    width: 400px;
+    height: auto;
+    margin-left: 5rem;
+  }
+  .bottom .wordBox {
+    max-width: 400px;
+    margin-right: 2rem;
+  }
+  .bottom .wordBox h1 {
+    margin-top: -4rem;
+  }
+  .bottom .wordBox p {
+    max-width: 400px;
+  }
+  footer .contactBox #social {
+    float: left;
+    margin-top: -1rem;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  header {
+    margin-top: -2rem;
+  }
+  .top h1 {
+    margin-left: 12%;
+  }
+  .top img#features.hero {
+    width: 400px;
+    height: auto;
+    margin-left: 30%;
+  }
+  .middle .featureBox {
+    width: 50%;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 30%;
+  }
+  .bottom {
+    height: 2000px;
+  }
+  .bottom img#team.stayProductive {
+    width: 400px;
+    height: auto;
+    margin-left: 30%;
+  }
+  .bottom .bottomCall .wordBox {
+    max-width: 700px;
+    margin-right: 5rem;
+  }
+  .bottom .bottomCall .wordBox h1 {
+    width: 80%;
+    text-align: center;
+  }
+  .bottom .bottomCall .wordBox p {
+    max-width: 500px;
+  }
+  .bottom img.quotes {
+    margin-left: 20rem;
+    width: 25px;
+    margin-top: 10rem;
+  }
+  .bottom .testimonials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .bottom .testimonials .testBox {
+    margin: 2rem auto;
+    height: auto;
+  }
+  .bottom .testimonials .testBox p {
+    width: 90%;
+  }
+  .inset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 360px;
+    width: 90%;
+  }
+  .inset input {
+    margin: 2rem auto;
+    width: 275px;
+  }
+  .inset .buttonFree {
+    margin: 0 auto;
+    width: 275px;
+  }
+  footer {
+    margin-top: -15rem;
+    height: 1000px;
+  }
+  footer .logo {
+    margin-left: 10%;
+    margin-top: 20rem;
+    margin-bottom: 2rem;
+  }
+  footer .contactBox {
+    width: 80%;
+    height: auto;
+    margin-top: 18rem;
+  }
+  footer .contactBox .phoneBox {
+    margin-left: 65%;
+    margin-top: -15rem;
+  }
+  footer .contactBox .emailBox {
+    margin-left: 65%;
+  }
+  footer .contactBox .link1 {
+    margin-left: 10%;
+    margin-top: 8rem;
+  }
+  footer .contactBox .link2 {
+    margin-left: 60%;
+    margin-top: -8.5rem;
+  }
+  footer .contactBox #social {
+    margin-top: 10rem;
+    margin-left: 20rem;
+  }
+  .attribution {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .top h1 {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .top .button {
+    margin-left: 35%;
+  }
+  .middle .featureBox {
+    width: 50%;
+  }
+  .bottom .bottomCall .wordBox h1 {
+    margin-left: 2rem;
+  }
+  .bottom .bottomCall .wordBox p {
+    margin-left: 2rem;
+  }
+  .bottom .bottomCall .wordBox a {
+    margin-left: 2rem;
+  }
+  .bottom img.quotes {
+    margin-left: 17rem;
+    margin-bottom: -2.5rem;
+  }
+  .inset h1 {
+    margin-top: -1rem;
+  }
+  .inset p {
+    width: 80%;
+  }
+  footer .contactBox #social {
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  header .logo {
+    width: 82px;
+    margin-left: 2rem;
+  }
+  header .header-links {
+    margin-top: 4.5rem;
+    margin-right: 5%;
+  }
+  .top .button {
+    margin-left: 30%;
+  }
+  .top .hero {
+    max-width: 300px;
+    height: auto;
+    margin-top: 3rem;
+  }
+  .middle .featureBox {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .middle .featureBox img {
+    margin-left: 25%;
+  }
+  .middle .featureBox h3 {
+    margin-left: -25%;
+  }
+  .middle .featureBox p {
+    margin-left: -5%;
+  }
+  .bottom img {
+    max-width: 300px;
+    height: auto;
+  }
+  .bottom img.quotes {
+    margin-left: 10rem;
+  }
+  .bottom .bottomCall .wordBox {
+    margin: 8rem auto 2rem auto;
+  }
+  footer {
+    height: 1300px;
+    margin-top: -12.5rem;
+  }
+  footer img.logo {
+    margin-left: 35%;
+  }
+  footer .contactBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .contactBox .locationBox {
+    margin: -17rem auto 0rem 5rem;
+  }
+  footer .contactBox .phoneBox {
+    margin: 2rem auto 0rem 5rem;
+  }
+  footer .contactBox .emailBox {
+    margin: 2rem auto 0rem 5rem;
+  }
+  footer .contactBox .link2 {
+    margin: 3rem auto 0rem 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .header img.logo {
+    margin-left: 1.25rem;
+    margin-top: 3.5rem;
+  }
+  .header .header-links {
+    margin-top: 4rem;
+    margin-right: .25rem;
+  }
+  .top h1 {
+    max-width: 300px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .top p {
+    margin-top: -1rem;
+    max-width: 340px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .middle .featureBox .box p {
+    max-width: 300px;
+    margin-left: .5rem;
+  }
+  .bottom {
+    height: 1850px;
+  }
+  .bottom .bottomCall .wordBox h1 {
+    font-size: 1.25rem;
+    margin-left: 2.25rem;
+  }
+  .bottom .bottomCall .wordBox p {
+    font-size: 1rem;
+    max-width: 370px;
+    margin: 0 auto;
+  }
+  .bottom .bottomCall .wordBox a {
+    margin-left: 20%;
+  }
+  .inset h1 {
+    font-size: 1.5rem;
+  }
+  .inset p {
+    max-width: 80%;
+  }
+  footer .contactBox {
+    margin-left: 0rem;
+  }
+  footer .contactBox .locationBox {
+    margin-left: 3.5rem;
+  }
+  footer .contactBox .phoneBox {
+    margin-left: 3.5rem;
+  }
+  footer .contactBox .emailBox {
+    margin-left: 3.5rem;
+  }
+  footer .contactBox .link2 {
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  body {
+    width: 100%;
+  }
+  .top img#features.hero {
+    margin-left: 20%;
+  }
+  .top .button {
+    margin-left: 22.5%;
+  }
+  .middle .featureBox {
+    margin-left: 15%;
+  }
+  .bottom .bottomCall img#team.stayProductive {
+    margin-left: 20%;
+  }
+  .bottom .bottomCall .wordBox {
+    max-width: 90%;
+  }
+  .bottom img.quotes {
+    margin-left: 22%;
+  }
+  footer .contactBox .link1 {
+    margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  body {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+  }
+  .header .header-links {
+    font-size: .5rem;
+  }
+  .header .header-links a {
+    padding: 0 5px 0 5px;
+  }
+  .top img#features.hero {
+    margin-left: 10%;
+  }
+  .top h1 {
+    margin-left: 10%;
+  }
+  .top p {
+    margin-left: 5%;
+  }
+  .top .button {
+    margin-left: 15%;
+  }
+  .middle {
+    margin-top: 10rem;
+    width: 375px;
+  }
+  .middle .desktop {
+    display: none;
+  }
+  .middle img.mobile {
+    margin-top: -34%;
+    display: block;
+    z-index: -1;
+    position: absolute;
+  }
+  .middle .featureBox {
+    padding-top: 400px;
+    margin-top: -25rem;
+  }
+  .middle .featureBox .box {
+    margin-left: -10%;
+  }
+  .bottom {
+    width: 375px;
+  }
+  .bottom .bottomCall img#team.stayProductive {
+    margin-left: 10%;
+  }
+  .bottom .bottomCall .wordBox h1 {
+    width: 95%;
+    font-size: 1rem;
+    margin-left: -1.5rem;
+  }
+  .bottom .bottomCall .wordBox p {
+    width: 95%;
+    margin: 0 auto;
+    font-size: .9rem;
+  }
+  .bottom .bottomCall .wordBox a {
+    margin-left: .5rem;
+  }
+  .bottom img.quotes {
+    margin-left: 3rem;
+  }
+  footer {
+    height: auto;
+    width: 375px;
+  }
+  footer img.logo {
+    margin-left: 3rem;
+  }
+  footer .contactBox .locationBox span {
+    width: 60%;
+  }
+  footer .contactBox .link2 {
+    margin-left: 2rem;
+  }
+  footer .contactBox #social {
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+  }
+}

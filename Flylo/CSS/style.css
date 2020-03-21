@@ -1,0 +1,372 @@
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #1c2431;
+  font-family: 'Raleway' sans-serif;
+  font-size: 14px;
+}
+
+.header .logo {
+  margin-top: 4.5rem;
+  margin-left: 5rem;
+}
+
+.header .header-links {
+  float: right;
+  margin-top: 5.5rem;
+  margin-right: 3.5rem;
+  font-weight: normal;
+}
+
+.header .header-links a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 1.5rem;
+  color: white;
+}
+
+.topContainer .hero {
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.topContainer .yourFiles {
+  color: white;
+  width: 725px;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.topContainer p {
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+  width: 626px;
+  margin: 0 auto;
+}
+
+.topContainer .button {
+  color: white;
+  background: linear-gradient(to left, #339ecc, #65e2d9);
+  border: none;
+  border-radius: 25px;
+  width: 279px;
+  margin-top: 2rem;
+  font-size: 1rem;
+  height: 50px;
+  margin-left: 40%;
+}
+
+.middleContainer {
+  margin-top: 5%;
+  background-color: #181f2a;
+}
+
+.middleContainer .desktop {
+  width: 100%;
+  position: relative;
+  margin-top: -35%;
+  z-index: -1;
+}
+
+.middleContainer .featureBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 600px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 18rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.middleContainer .box {
+  padding-top: 2rem;
+  width: 450px;
+}
+
+.middleContainer .box h3 {
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.middleContainer .box p {
+  width: 375px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.middleContainer .box img {
+  margin-left: 11rem;
+  margin-top: .5rem;
+}
+
+.bottomContainer {
+  height: 1280px;
+  background-color: #181f2a;
+}
+
+.bottomContainer .bottomCall {
+  margin-bottom: 8rem;
+}
+
+.bottomContainer .bottomCall img{
+  margin-top: 5.75rem;
+  margin-left: 6.75rem;
+}
+
+.bottomContainer .bottomCall .wordBox {
+  margin-right: 4rem;
+  margin-top: 12rem;
+  float: right;
+  width: 600px;
+}
+
+.bottomContainer .bottomCall .wordBox h1 {
+  color: white;
+  width: 365px;
+  font-size: 2.5em;
+}
+
+.bottomContainer .bottomCall .wordBox p {
+  color: white;
+  width: 550px;
+  font-size: 1rem;
+}
+
+.bottomContainer .bottomCall .wordBox a {
+  color: #65e2d9;
+  text-decoration: none;
+  border-bottom: 1px solid #65e2d9;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.bottomContainer .bottomCall .wordBox img {
+  margin-left: -1rem;
+  margin-top: 1rem;
+  margin-bottom: -.25rem;
+}
+
+.bottomContainer img .quotes {
+  z-index: -1;
+  margin-bottom: -1rem;
+  margin-left: 3.5rem;
+}
+
+.bottomContainer .testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bottomContainer .testimonials .founder {
+  width: 400px;
+  height: auto;
+  background-color: #202a3c;
+  color: white;
+  padding-bottom: 2rem;
+  -webkit-box-shadow: 8px 8px 8px #1c2431;
+          box-shadow: 8px 8px 8px #1c2431;
+}
+
+.bottomContainer .testimonials .founder img {
+  width: 25px;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+.bottomContainer .testimonials .founder p {
+  width: 300px;
+  margin: 2rem auto;
+}
+
+.bottomContainer .testimonials .founder span.name {
+  font-size: .75rem;
+  margin-left: .25rem;
+  position: absolute;
+  margin-top: -.25rem;
+}
+
+.bottomContainer .testimonials .founder span.title {
+  font-size: .5rem;
+  margin-left: .25rem;
+}
+
+.access {
+  z-index: 9;
+  position: relative;
+  width: 865px;
+  background-color: #1c2431;
+  -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+  margin-top: -10rem;
+  height: 275px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.access h1 {
+  padding-top: 3rem;;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.access p {
+  text-align: center;
+  width: 630px;
+  margin: 0 auto;
+}
+
+.access input {
+  width: 480px;
+  height: 45px;
+  border-radius: 25px;
+  margin-top: 2.75rem;
+  margin-left: 5rem;
+  border: none;
+}
+
+.access input::-webkit-input-placeholder {
+  padding-left: 2rem;
+}
+
+.access input:-ms-input-placeholder {
+  padding-left: 2rem;
+}
+
+.access input::-ms-input-placeholder {
+  padding-left: 2rem;
+}
+
+.access input::placeholder {
+  padding-left: 2rem;
+}
+
+.access .buttonFree {
+  color: white;
+  background: linear-gradient(to left, #339ecc, #65e2d9);
+  border: none;
+  border-radius: 25px;
+  width: 200px;
+  margin-left: 2rem;
+  font-family: "Raleway";
+  font-size: .90rem;
+  height: 50px;
+}
+
+footer {
+  color: white;
+  background-color: #0b1523;
+  height: 515px;
+  margin-top: -8.5rem;
+}
+
+footer .logo {
+  margin-top: 14rem;
+  margin-left: 7.5rem;
+}
+
+footer .contactBox {
+  margin-top: 3rem;
+  width: 90%;
+  margin-left: 5rem;
+}
+
+footer .contactBox .locationBox {
+  float: left;
+  width: 400px;
+}
+
+footer .contactBox .locationBox span {
+  width: 300px;
+  display: block;
+  margin-left: 2.5rem;
+  margin-top: -1.5rem;
+}
+
+footer .contactBox .phoneBox {
+  width: 300px;
+  margin-left: 20rem;
+}
+
+footer .contactBox .phoneBox span {
+  margin-left: 1.5rem;
+}
+
+footer .contactBox .emailBox {
+  padding-top: .75rem;
+  width: 300px;
+  margin-left: 20rem;
+}
+
+footer .contactBox .emailBox span {
+  margin-left: 1.5rem;
+}
+
+footer .contactBox .link1 {
+  width: 80px;
+  margin-left: 46rem;
+  margin-top: -3.75rem;
+}
+
+footer .contactBox .link1 a {
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding-bottom: .75rem;
+}
+
+footer .contactBox .link2 {
+  width: 80px;
+  margin-left: 58rem;
+  margin-top: -8.5rem;
+}
+
+footer .contactBox .link2 a {
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding-bottom: .75rem;
+}
+
+footer .contactBox #social {
+  width: 200px;
+  float: right;
+  margin-top: -7.75rem;
+}
+
+footer .contactBox #social i {
+  text-align: center;
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 17px;
+  line-height: 2;
+}
