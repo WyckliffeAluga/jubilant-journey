@@ -4,7 +4,8 @@ function Footer() {
 
   return (
     <footer >
-      <p> Copyright {new Date().getFullYear()} < /p>
+      <p> Created by Wyckliffe Aluga </p>
+      <p> Copyright © {new Date().getFullYear()} < /p>
     </footer>
   )
 }
