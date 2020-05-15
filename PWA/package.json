@@ -1,11 +1,14 @@
 {
   "name": "pwa",
   "version": "1.0.0",
-  "description": "Progressive web app ",
+  "description": "progressive web application ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wyckliffe Aluga",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.14.2"
+  }
 }
